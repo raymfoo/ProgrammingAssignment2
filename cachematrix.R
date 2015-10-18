@@ -70,5 +70,5 @@ cacheSolve <- function(x, ...) {
     x$setInverse(inverse)
     
     ##return calculated inverse after caching
-    i
+    inverse
 }
